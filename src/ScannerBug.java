@@ -7,7 +7,7 @@ public class ScannerBug {
         System.out.println("Enter your roll number");
         int roll=sc.nextInt();
         //we have to write a blank nextline so that it moves the cursor away from \n
-        //sc.nextLine();
+        sc.nextLine();
         //other method can be we can change nextLine to next but it will read only first string
         System.out.println("Enter your full name");
         String name=sc.nextLine();
