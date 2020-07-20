@@ -3,16 +3,16 @@ Create an application to accept firstname,
 rollNumber,percentage,section,year,
 course from user. And display the output in below format.
 Output
-First Name : Palak
-Roll Number : 19
-Percentage : 96.4
-Section : R
+First Name : Vaibhav
+Roll Number : 12
+Percentage : 66.7
+Section : G
 Year : 2
 Course : B.Tech CSE
  */
 
 import java.util.Scanner;
-public class ScannerExample2 {
+public class ScannerAssignment {
     public static void main(String[] args) {
         Scanner object=new Scanner(System.in);
         System.out.println("Enter your first name");
@@ -25,6 +25,7 @@ public class ScannerExample2 {
         String section=object.next();
         System.out.println("Enter your year");
         byte year=object.nextByte();
+        object.nextLine();
         System.out.println("Enter your course");
         String course=object.nextLine();
         object.close();
