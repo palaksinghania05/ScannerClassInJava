@@ -3,12 +3,12 @@ Application to demonstrate use of Scanner Class
 Create an Application to accept name,age,
 4-digit code, cpi, mobile no, passed and display these values
 to user in the given format
-Name : Palak Singhania
-Age : 18
+Name : Vaibhav Diwan
+Age : 36
 4-digit Code : 1122
-cpi : 9.41
+cpi : 6.6
 Mobile No : 9754435581
-Passed : true
+Passed : false
  */
 
 import java.util.Scanner;
