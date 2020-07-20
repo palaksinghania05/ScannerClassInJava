@@ -1,3 +1,4 @@
+//to demonstrate the process of taking input in hackerrank questions
 import java.util.Scanner;
 
 public class ScannerHackerrank {
