@@ -9,5 +9,6 @@ public class ScannerHackerrank {
         String name=sc.next();
         String section=sc.next();
         System.out.println(roll + "," + name + "," +section);
+        sc.close();
     }
 }
